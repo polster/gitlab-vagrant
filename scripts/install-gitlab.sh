@@ -14,5 +14,5 @@ gitlab-ctl reconfigure
 gitlab-ctl status
 
 echo ==== Installing GitLab Multi Runner =======================================
-curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-ci-multi-runner/script.deb.sh | sudo bash
-apt-get install -y gitlab-ci-multi-runner
+curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh | sudo bash
+apt-get install gitlab-runner
